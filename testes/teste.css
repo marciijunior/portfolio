@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url('./assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo-destaque {
+    color: #FD007A;
+}
+
+.apresentacao {
+    padding: 7% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.apresentacao__conteudo {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 32px;
+    font-family: "Krona One", serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.apresentacao__links__subtitulo{
+    flex-direction: column;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.apresentacao__imagens {        
+    width: 30px;
+    height: 30px;
+    max-width: 100px;
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid #FD007A;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+
+.apresentacao__links__link:hover{
+    cursor: pointer;
+    background-color: #1C1C1C;
+    transform: scale(1.06);
+}
+
+.rodape {
+    color: #1c1c1c;
+    background-color: #fd007a;
+    padding: 20px;
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
