@@ -187,10 +187,11 @@ body {
         color: var(--cor-secundaria);
         width: 100%;
         background-image: url(../assets/background-cel.png);
-        background-size: 100% 100%;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        object-fit: contain; 
     }
     .cabecalho {
         padding: 6% 0% 0% 0%;
