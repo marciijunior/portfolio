@@ -170,6 +170,7 @@ body {
 
     .apresentacao__conteudo__texto__curriculo {
         font-size: 0.7rem;
+        text-decoration: none;
     }
 
     .apresentacao__conteudo__texto__link {
